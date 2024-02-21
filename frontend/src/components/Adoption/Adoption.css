@@ -1,0 +1,42 @@
+.paws-banner{
+    background-color: #f7ede0;
+}
+
+
+
+.head-sub-text {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.icon-text {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.banner-heading h2 {
+    font-size: 62px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.icon-text h4 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.icon-bg {
+    background-color: #ff9600;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.banner-sub-detail p {
+    text-align: left;
+}

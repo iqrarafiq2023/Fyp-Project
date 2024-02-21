@@ -1,0 +1,99 @@
+ 
+
+
+   .postAnimal {
+    background-color: #f8ede2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(235, 192, 144, 0.1);
+    max-width: 600px;
+    margin: 30px auto;
+  }
+  
+  /* .container {
+    text-align: center;
+  } */
+  
+  h3 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: grid;
+    gap: 15px;
+  }
+  
+  input[type='text'],
+  input[type='number'],
+  input[type='email'],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type='submit'] {
+    background-color: #db753a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type='submit']:hover {
+    background-color: #45a049;
+  }
+  
+/* Styling for the "Choose File" input */
+input[type="file"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="file"]:hover,
+  input[type="file"]:focus {
+    border-color: #aaa;
+    outline: none;
+  }
+  
+  /* Style the file upload button */
+  input[type="file"]::-webkit-file-upload-button {
+    padding: 10px 20px;
+    background-color: #db753a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Adjusting the "Upload Photo" label */
+  label[for="file"] {
+    width: 100%;
+    display: block;
+    padding: 10px 0; /* Padding top and bottom */
+  }
+  
+  
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  
